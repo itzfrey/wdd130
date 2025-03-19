@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #30BCED;
+    --secondary-color: #EF6F6C;
+    --accent1-color: #C8FFBE;
+    --accent2-color: #584D3D;
+    --header-font: "Bungee", sans-serif;
+    --text-font: "Open Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--header-font);
+    
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+.sociallinks a,
+header a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+
+}
+
+#heading {
+    position: absolute;
+    top: 20px;
+    background-color: rgb(88, 77, 61, 0.8);
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}   
+
+#hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+ .hero article {
+    position: absolute;
+    top: 30%;
+    color: beige;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(88, 77, 61, 0.6);
+    padding: 20px;
+    margin: 0 50px;
+    
+     
+} 
+
+.history_section {
+    margin: 30px 0 30px 0;
+}
+
+.adventure-section h2 {
+    margin: 30px 0;
+}
+
+
