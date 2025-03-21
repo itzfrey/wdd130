@@ -58,20 +58,33 @@ header a {
     object-fit: cover;
 }
 
-
-
- .hero article {
+.hero article {
     position: absolute;
     top: 30%;
     color: beige;
-    display: flex;
-    gap: 20px;
     background-color: rgb(88, 77, 61, 0.6);
     padding: 20px;
     margin: 0 50px;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
     
-     
+    
 } 
+
+.hero article img {
+    float: right; 
+    margin-left: 10px;
+    width: 150px;
+    height: auto;
+    
+}
+
+.hero article p {
+    display: inline-block;
+    white-space: normal;
+    width: calc(100% - 165px); 
+}
 
 .history_section {
     margin: 30px 0 30px 0;
@@ -80,5 +93,8 @@ header a {
 .adventure-section h2 {
     margin: 30px 0;
 }
+
+
+
 
 
