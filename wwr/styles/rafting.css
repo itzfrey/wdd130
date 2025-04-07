@@ -153,8 +153,105 @@ header a {
     width: 200px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: var(--accent2-color);
+}
+
 
 
 
 
  
+/* Contact Us Page */
+.heading-text {
+    color: var(--primary-color);
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-info p {
+    line-height: 1.5;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+}
+
+.employees h2 {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.employees img {
+    border-radius: 100%;
+    height: 180px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+form {
+    max-width: 650px;
+    margin: 20px auto 20px;
+    
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+button {
+    margin: 1rem auto 0;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 100px;
+    
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}

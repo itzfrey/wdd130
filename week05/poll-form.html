@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wdd 130 | HTML Form - User Poll</title>
+    <meta name="description" content="Poll form layout">
+    <meta name="author" content="Godfrey Hogan Eyo">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Godfrey Hogan Eyo | User Poll</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                </select><br>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <label for="feedback">List the places you have lived.</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Abuja Nigeria"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        ©2025 | HTML Form - User Poll Activity | Godfrey Hogan Eyo
+    </footer>
+</body>
+</html>
