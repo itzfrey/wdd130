@@ -398,6 +398,17 @@ tbody > tr:nth-of-type(even) {
     width: 120px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
 .cta {
     padding: 50px 20px;
     text-align: center;
