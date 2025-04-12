@@ -108,7 +108,7 @@ footer {
     object-fit: cover;
 }
 
-.hero article {
+.hero .article {
     position: absolute;
     top: 30%;
     color: beige;
@@ -119,13 +119,13 @@ footer {
     flex-wrap: wrap;
 } 
 
-.hero article img {
+.hero .article img {
     margin-left: 10px;
     width: 150px;
     height: auto;
 }
 
-.hero article p {
+.hero .article p {
     display: inline-block;
     white-space: normal;
     width: calc(100% - 165px); 
@@ -359,4 +359,122 @@ thead > tr {
 tbody > tr:nth-of-type(even) {
     background-color: var(--primary-color);
     color: var(--accent1-color);
+}
+
+/* Home page  */
+
+.home-header {
+    position: relative;
+    /* max-width: 1100px; */
+    /* margin: 0 auto; */
+    
+}
+.home-header img{
+   width: 100%; 
+   height: auto;
+   
+}
+
+.home-header h1 {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    color: var(--accent1-color);
+}
+.newsletter {
+    text-align: center;
+    padding: 30px 20px;  
+    border-bottom: 1px solid #ccc;
+}
+
+.newsletter input,
+.newsletter button {    
+    font-family: var(--text-fontt);
+}
+
+.newsletter button {
+    padding: 15px;
+    width: 120px;
+}
+
+.cta {
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+  
+.cta h2 {
+    margin-bottom: 10px;
+}
+  
+.cta p {
+    margin-bottom: 30px;
+}
+
+.visit-trip {
+    text-decoration: none;
+    background-color: var(--accent3-color);
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: var(--text-font);
+}
+
+.visit-trip:hover {
+    background-color: var(--accent2-color);
+}
+
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+.slides {
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite;
+}
+  
+.slides img {
+    width: 100%;
+    height: auto;
+    flex: 0 0 100%;
+}
+ @keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+  
+.offerings {
+    text-align: center;
+    padding: 40px 20px;
+}
+.offerings h2 {
+    margin-bottom: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+  
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.grid-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+  
+.grid-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
